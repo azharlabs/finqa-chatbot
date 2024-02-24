@@ -1,11 +1,13 @@
-# Command to create VIrtual environment
-python -m venv venv
-.venv\Scripts\activate
+# FinQA Chatbot (Mohamed Azharudeen - Scaler Portfolio Projects Feb'24)
 
-# Git Commands
-git config --global user.email "replace with your email"
-git config --global user.name "Replace with your name"
-git clone <repository <copied from the github repository created>
+## Command to create virtual environment
 
-# Streamlit
+    python -m venv venv .venv\Scripts\activate
+    
+## Install Required Packages
+
+    python install -r requirements.txt
+
+# [](https://github.com/azharlabs/finqa-chatbot#streamlit)Streamlit
+
 streamlit run app.py
